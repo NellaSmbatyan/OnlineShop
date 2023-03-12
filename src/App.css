@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+body{
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.trolley{
+    background-color: rgb(251, 169, 46);
+    margin:10px;
+    width: 150px;
+    height: 40px;
+    color: aliceblue;
+    font-weight: 700;
+
+}
+.trolleyImg {
+    width: 100px;
+    height: 100px;
+}
+.trolleyButton{
+    margin-left: 150px;
+font-weight: 700;
+    background-color: rgb(251, 169, 46);
+    color: aliceblue;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.head{
+    font-weight: 700;
+    font-size: 50px;
+}
+.cardStyle{
+    width: 22rem;
+     border: none;
+}
+.allCards{
+    display:flex;
+     justify-content:center;
+      align-items:center
+}
+.cardImg{
+    height:16rem
+}
+.cardButton{
+   background-color: black;
+    width: 300px;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+.removeIcon{
+    width: 20px;
+    height: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.checkButton {
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    border-radius: 15px;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 500;
 }
